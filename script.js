@@ -11,7 +11,7 @@ document.querySelectorAll(".square").forEach(square => {
 	square.addEventListener("mouseover", () => {
 		square.style.backgroundColor = getRandomColor();
 		setTimeout(()=>{
-			square.style.backgroundColor = "#494646"
+			square.style.backgroundColor = "rgb(29, 29, 29)"
 		}, 1000)
 	})
 })
