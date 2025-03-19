@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body{
+	background-color: black;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(40, 20px);
+	grid-template-rows: repeat(20, 20px);
+	gap: 2px;
+	width: fit-content;
+	margin: 20px auto;
+}
+
+.square{
+	background-color: #494646;
+	width: 20px;
+    height: 20px;
+	transition: background-color 1s ease;
+}
